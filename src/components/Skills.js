@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faHtml5, faCss3, faJs, faVuejs, faLaravel } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3, faJs } from '@fortawesome/free-brands-svg-icons';
 import CustomHook from './CustomHook';
 
 function Skills() {
@@ -22,12 +22,6 @@ const [listSkills] = useState([
     name: 'Javascript',
     des: 'Competent in adding basic interactivity and dynamic features to websites, such as event handling and simple client-side logic.',
     icon: faJs},
-  {
-    name: 'ReactJs',
-    des: 'Able to build user interfaces with reusable components, manage state, and work on smaller-scale web applications, utilizing Reacts essential functionalities for improved efficiency',
-    icon: faReact
-  },
-
 ]);
   return (
     <section className='skills' ref={scrollTab}>
